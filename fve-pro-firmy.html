@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voltmax.cz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+    <script type="text/javascript">
+      const elm=document.getElementsByTagName("html")[0];
+      elm.style.display = "none";
+      document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
+    </script>
+  <script defer src="FVEProFirmy1f5f1873e28313507b41.js"></script></head>
+  <style>
+    
+    #career::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6rem;
+  height: 12rem; /* Adjust height to control the depth of the skew */
+  background: #f1f5f9; /* Make the background the same as the section */
+  transform: skewY(3deg);
+  transform-origin: top; /* Ensures the skew is applied from the top of the pseudo-element */
+  z-index: 10;
+}
+    #servis li::before {
+    content: "";
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+    background-color: #34d399;
+  }
+    .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
+      position: relative !important;
+      width: 10rem !important;
+      opacity: 80% !important;
+      margin: auto !important;
+    }
+    #wave::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 30%;
+      background-image: linear-gradient(to top, rgba(224, 231, 235, 0.055), rgba(224, 231, 235, 0.09));
+    }
+    .pad{
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    #topleft > img:hover{
+      filter: drop-shadow(5px 5px 12px #69c07b);
+    }
+    .card-small{
+      transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .card-small:hover{
+      scale: 1.02;
+    }
+    .popup-image{
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.popup-image span{
+    position:relative;
+    font-size: 9rem;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    transition: 1s all ease;
+}
+.popup-article span{
+    position:absolute;
+    top: 12rem;
+    right: 12%;
+    font-size: 9rem;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    transition: 1s all ease;
+}
+.popup-image span:hover, .popup-article span:hover{
+    color: #34d399;
+}
+.popup-image img{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-width: 95%;
+    max-height: 75%;
+}
+    
+  </style>
+  <body class="bg-stone-100">
+    <script src="index[contenthash].js"></script>
+    <div id="mobilemenu" class="w-3/5 md:w-1/5 h-screen fixed bg-black/90 z-50 right-0 flex flex-col pt-4 hidden">
+      <ul class="menu flex flex-col items-center backdrop-blur-sm bg-opacity-30 gap-2 text-neutral-100 font-bold menu-horizontal rounded-box ">
+        <li class="hover:text-emerald-400"><a href="./#about">O nás</a></li>
+        <li class="hover:text-emerald-400"><a href="./fve-pro-rodinne-domy.html">FVE pro rodinné domy</a></li>
+        <li class="hover:text-emerald-400"><a href="./fve-pro-bytove-domy.html">FVE pro bytové domy</a></li>
+        <li class="hover:text-emerald-400"><a href="./fve-pro-firmy.html">FVE pro firmy</a></li>
+        <li class="hover:text-emerald-400">
+            <a href="./#others"><summary>Další služby</summary></a>
+        </li>
+        <li class="hover:text-emerald-400"><a href="./#servis">Servis</a></li>
+        <li class="hover:text-emerald-400"><a href="./#career">Kariéra</a></li>
+        <li class=""><a href="./#kontakt"><button class="btn btn-md flex justify-center bg-emerald-400 border-none text-gray-100 hover:bg-emerald-500">Kontaktujte nás</button></a></li>
+        <div class="flex gap-2">
+          <a href="tel:+420739859888"><li class="h-10 w-auto bg-white rounded-full"><img class="teltop h-full w-full text-white"></li></a>
+          <a href="https://www.instagram.com/voltmax.cz/" target="_blank" rel="noopener noreferrer"><li class="h-10 w-auto bg-white rounded-full"><img class="h-full w-full" id="igtop"></li></a>
+        </div>
+      </ul>
+    </div>
+    <div id="top" class="flex flex-col w-full">
+        <header class="flex justify-between bg-white drop-shadow-xl">
+            <span id="topleft" class="flex items-center w-fit pr-12 -ml-3 bg-slate-950 -skew-x-12"><img class="logo transition-all w-32 h-auto ml-12 skew-x-12"></span>
+            <span id="topright" class="p-6">
+                <ul class="menu hidden xl:flex bg-slate-400 items-center backdrop-blur-sm bg-opacity-30 gap-8 text-slate-700 font-bold menu-horizontal rounded-box ">
+                    <li class="hover:text-emerald-400 hidden xl:block"><a href="./#about">O nás</a></li>
+                    <li class="hover:text-emerald-400 hidden xl:block"><a href="./fve-pro-rodinne-domy.html">FVE pro rodinné domy</a></li>
+                    <li class="hover:text-emerald-400 hidden xl:block"><a href="./fve-pro-bytove-domy.html">FVE pro bytové domy</a></li>
+                    <li class="hover:text-emerald-400 hidden xl:block"><a href="./fve-pro-firmy.html">FVE pro firmy</a></li>
+                    <li class="hover:text-emerald-400 hidden 2xl:block">
+                        <a href="./#others"><summary>Další služby</summary></a>
+                    </li>
+                    <li class="hover:text-emerald-400 hidden 2xl:block"><a href="./#servis">Servis</a></li>
+                    <li class="hover:text-emerald-400 hidden 2xl:block"><a href="./#career">Kariéra</a></li>
+                    <li class="hidden sm:block"><a href="./#kontakt"><button class="btn btn-md flex justify-center bg-emerald-400 border-none text-gray-100 hover:bg-emerald-500">Kontaktujte nás</button></a></li>
+                    <a href="tel:+420739859888"><li class="h-10"><img class="h-full w-full teltop" id="teltop"></li></a>
+                    <a href="https://www.instagram.com/voltmax.cz/" target="_blank" rel="noopener noreferrer"><li class="h-10 w-auto "><img class="h-full w-full igtop" id="igtop"></li></a>
+                  </ul>
+                  <div id="hamburger" class="w-12 xl:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
+                  </div>
+            </span>
+        </header>
+    </div>
+    <section class="flex justify-between gap-12 items-center lg:h-fit font-poppins py-32 pad">
+        <div class="w-full flex items-center justify-between gap-12 flex-col lg:flex-row">
+          <div>
+            <div class="relative w-full">
+              <h1
+                  class="absolute -top-20   left-0 text-[20px] lg:text-[100px] text-gray-900 font-bold   lg:block opacity-5 hidden">
+                  Voltmax
+              </h1>
+              <h1 class="pl-2 text-3xl font-bold border-l-8 border-emerald-400 md:text-5xl">
+                Solární energie pro vaši firmu:<br> Investice do budoucnosti
+              </h1>
+          </div>
+          <div class="my-12 text-base leading-7 text-gray-500  max-w-lg">
+            Pořízení fotovoltaických panelů pro vaši firmu znamená nejen snížení provozních nákladů díky vlastní výrobě elektřiny, ale také posílení energetické nezávislosti a příspěvek k udržitelnému rozvoji. Investujte do udržitelné budoucnosti vaší firmy s fotovoltaikou!
+
+          </div>
+          </div>
+          <div id="imgfvef" class="w-fit h-full flex justify-end relative">
+            <img id="fve-firma" class="relative z-40 object-cover w-12/12 h-96 lg:rounded-tr-[80px] rounded-bl-[80px] rounded" alt="">
+            <div class="absolute z-10 w-full h-full bg-emerald-400 rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
+            </div>
+        </div>
+        </div>
+      </section>
+      <section id="3card" class="flex justify-center py-32">
+        <div class="grid grid-cols-1 lg:grid-cols-3 w-2/3">
+            <div class="flex flex-col items-center border rounded-lg p-6 px-12 group">
+                <div class="flex w-12 h-12 text-emerald-400 mb-12 transition-all duration-500 group-hover:-translate-y-2"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg></div>
+                <span class="flex text-2xl font-bold mb-4 transition-all duration-500 group-hover:-translate-y-2 text-center">Samostatnost v dodávkách energie</span>
+                <div class="flex text-center transition-all duration-500 group-hover:-translate-y-2">FVE mohou firmám poskytnout nezávislost na tradičních dodavatelích energie, což je osvobozuje od rizika zdražování elektřiny na trhu.</div>
+            </div>
+            <div class="flex flex-col items-center border rounded-lg p-6 px-12 group">
+                <div class="flex w-12 h-12 text-emerald-400 mb-12 transition-all duration-500 group-hover:-translate-y-2"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><ellipse cx="256" cy="128" rx="192" ry="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/><path d="M448 214c0 44.18-86 80-192 80S64 258.18 64 214M448 300c0 44.18-86 80-192 80S64 344.18 64 300" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/><path d="M64 127.24v257.52C64 428.52 150 464 256 464s192-35.48 192-79.24V127.24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></svg></div>
+                <span class="flex text-2xl font-bold mb-4 transition-all duration-500 group-hover:-translate-y-2 text-center">Úspory na provozních nákladech</span>
+                <div class="flex text-center transition-all duration-500 group-hover:-translate-y-2">Vlastní výroba elektřiny z FVE může výrazně snížit měsíční náklady na energie a přispět k finanční stabilitě firmy.                </div>
+            </div>
+            <div class="flex flex-col items-center border rounded-lg p-6 px-12 group">
+              <div class="flex w-12 h-12 text-emerald-400 mb-12 transition-all duration-500 group-hover:-translate-y-2"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" fill="currentColor"><path d="M463.1 112.37C373.68 96.33 336.71 84.45 256 48c-80.71 36.45-117.68 48.33-207.1 64.37C32.7 369.13 240.58 457.79 256 464c15.42-6.21 223.3-94.87 207.1-351.63z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 48c-80.71 36.45-117.68 48.33-207.1 64.37C32.7 369.13 240.58 457.79 256 464z"/></svg></div>
+              <span class="flex text-2xl font-bold mb-4 transition-all duration-500 group-hover:-translate-y-2 text-center">Ochrana před energetickými výkyvy</span>
+              <div class="flex text-center transition-all duration-500 group-hover:-translate-y-2">FVE umožňují firmám stabilizovat své energetické náklady a minimalizovat dopady neočekávaných výkyvů na trhu s elektřinou.</div>
+            </div>
+            <div class="flex flex-col items-center border rounded-lg p-6 px-12 group">
+                <div class="flex w-12 h-12 text-emerald-400 mb-12 transition-all duration-500 group-hover:-translate-y-2"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M321.89 171.42C233 114 141 155.22 56 65.22c-19.8-21-8.3 235.5 98.1 332.7 77.79 71 197.9 63.08 238.4-5.92s18.28-163.17-70.61-220.58zM173 253c86 81 175 129 292 147" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                <span class="flex text-2xl font-bold mb-4 transition-all duration-500 group-hover:-translate-y-2 text-center">Ochrana životního prostředí</span>
+                <div class="flex text-center transition-all duration-500 group-hover:-translate-y-2">Investice do FVE přispívá k snižování uhlíkové stopy firmy a podporuje její udržitelnostní cíle.</div>
+            </div>
+            <div class="flex flex-col items-center border rounded-lg p-6 px-12 group">
+              <div class="flex w-12 h-12 text-emerald-400 mb-12 transition-all duration-500 group-hover:-translate-y-2"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M35.42 188.21l207.75 269.46a16.17 16.17 0 0025.66 0l207.75-269.46a16.52 16.52 0 00.95-18.75L407.06 55.71A16.22 16.22 0 00393.27 48H118.73a16.22 16.22 0 00-13.79 7.71L34.47 169.46a16.52 16.52 0 00.95 18.75zM48 176h416" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M400 64l-48 112-96-128M112 64l48 112 96-128M256 448l-96-272M256 448l96-272"/></svg></div>
+              <span class="flex text-2xl font-bold mb-4 transition-all duration-500 group-hover:-translate-y-2 text-center">Image a zodpovědnost</span>
+              <div class="flex text-center transition-all duration-500 group-hover:-translate-y-2">Instalace FVE ukazuje veřejnosti, že firma se angažuje v ochraně životního prostředí a udržitelném rozvoji.</div>
+          </div>
+          <div class="flex flex-col items-center border rounded-lg p-6 px-12 group">
+            <div class="flex w-12 h-12 text-emerald-400 mb-12 transition-all duration-500 group-hover:-translate-y-2"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><rect x="112" y="48" width="288" height="416" rx="32" ry="32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M160.01 112H352v64H160.01z"/><circle cx="168" cy="248" r="24"fill="currentColor"/><circle cx="256" cy="248" r="24" fill="currentColor"/><circle cx="344" cy="248" r="24" fill="currentColor"/><circle cx="168" cy="328" r="24" fill="currentColor"/><circle cx="256" cy="328" r="24" fill="currentColor"/><circle cx="168" cy="408" r="24" fill="currentColor"/><circle cx="256" cy="408" r="24" fill="currentColor"/><rect x="320" y="304" width="48" height="128" rx="24" ry="24" fill="currentColor"/></svg></div>
+            <span class="flex text-2xl font-bold mb-4 transition-all duration-500 group-hover:-translate-y-2 text-center">Dotace a daňové úlevy</span>
+            <div class="flex text-center transition-all duration-500 group-hover:-translate-y-2">Mnoho zemí nabízí finanční podporu v podobě dotací nebo daňových úlev na instalaci FVE, což snižuje počáteční investiční náklady.</div>
+        </div>
+        </div>
+      </section>
+      <section class="flex justify-center py-32">
+        <div class="flex xl:flex-row flex-col gap-8 w-10/12 md:w-3/5 px-8 justify-center rounded-md bg-white shadow-lg backdrop-blur-sm py-4">
+          <div class="flex gap-4 items-center mx-auto group cursor-default"> 
+            <span class="font-semibold text-4xl duration-500 transition-all group-hover:text-emerald-400">10 let</span>
+            <span class="w-44 font-thin text-gray-400">Zkušeností v elektrotechnickém oboru</span>
+          </div>
+          <div class="flex gap-4 items-center mx-auto group cursor-default"> 
+            <span class="font-semibold text-4xl duration-500 transition-all group-hover:text-emerald-400">100+</span>
+            <span class="w-44 font-thin text-gray-400">Máme za sebou stovky kvalitních instalací.</span>
+          </div>
+          <div class="flex gap-4 items-center mx-auto group cursor-default"> 
+            <span class="font-semibold text-4xl duration-500 transition-all group-hover:text-emerald-400">až 70 tis.</span>
+            <span class="w-44 font-thin text-gray-400">Korun ročně ušetří naši klienti s vlastní fotovoltaickou elektrárnou.</span>
+          </div>
+        </div>
+      </section>
+      <section id="banner" class="flex w-full h-[30rem] justify-center bg-cover transition-all duration-500 items-center bg-top hover:bg-right">
+        <div class="w-full h-full flex flex-col justify-center items-center transition-all duration-500 bg-opacity-90 hover:bg-opacity-60">
+          <span class="text-neutral-100 font-thin uppercase">Kontaktujte nás</span>
+          <h2 class="font-semibold text-2xl lg:text-6xl w-1/4 flex text-center text-neutral-100 mb-6">Získejte výhody FVE do 30 dnů</h2>
+          <button class="btn btn-xs sm:btn-sm bg-emerald-400 border-none text-gray-100 hover:bg-emerald-500"><a href="./#kontakt">Nezávazná poptávka</a></button>
+        </div>
+      </section>
+      <section class="px-8 md:px-[15%] py-32">
+        <div class="flex xl:flex-row flex-col gap-36">
+          <div class="flex flex-col items-center w-full xl:w-1/2 p-8 bg-white rounded-md border transition-all duration-300 hover:scale-105 hover:bg-gray-50">
+            <span class="font-semibold text-3xl text-black py-8">Mini</span>
+            <div class="flex flex-col w-full border-b pb-6">
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Celkový výkon</span>
+                </div>
+                <span class="text-black font-semibold">5,5 kWp</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Roční výroba </span>
+                </div>
+                <span class="text-black font-semibold">až 6 215 kWH</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Roční úspora (6 kč / kWh)</span>
+                </div>
+                <span class="text-black font-semibold">až 37 290 Kč</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Velikost baterií (v kWh)</span>
+                </div>
+                <span class="text-black font-semibold">10,66 LiFePO4</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Výkon panelů</span>
+                </div>
+                <span class="text-black font-semibold">500 Wp</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Výkon střídače</span>
+                </div>
+                <span class="text-black font-semibold">10 000 W</span>
+              </div>
+            </div>
+            <div class="flex flex-col mt-6 items-center w-full">
+              <div class="flex items-center w-full justify-between">
+                <span class="text-gray-600">Celková cena</span>
+                <span class="text-slate-900 text-xl tracking-wide">410 900 Kč</span>
+              </div>
+              <div class="flex items-center w-full justify-between">
+                <span class="text-gray-600">Dotace až</span>
+                <span class="text-slate-900 text-xl tracking-wide">225 000 Kč</span>
+              </div>
+              <div class="flex flex-col items-center font-bold">
+                <span class="text-gray-600">Vaše cena</span>
+                <span class="text-slate-900 text-3xl tracking-wide">185 900 Kč</span>
+              </div>
+              <a href="./#kontakt"class="px-4 py-3 text-gray-50 transition-all transform bg-emerald-400 rounded-[80px] hover:bg-emerald-500 mt-6">Mám zájem</a>
+            </div>
+          </div>
+          <div class="flex flex-col items-center w-full xl:w-1/2 p-8 bg-white rounded-md border transition-all duration-300 hover:scale-105 hover:bg-gray-50">
+            <span class="font-semibold text-3xl text-black py-8">Velká</span>
+            <div class="flex flex-col w-full border-b pb-6">
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Celkový výkon</span>
+                </div>
+                <span class="text-black font-semibold">10 kWp</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Roční výroba </span>
+                </div>
+                <span class="text-black font-semibold">až 11 300 kWh</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Roční úspora (6 kč / kWh)</span>
+                </div>
+                <span class="text-black font-semibold">až 67 800 Kč</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Velikost baterií (v kWh)</span>
+                </div>
+                <span class="text-black font-semibold">10,66 LiFePO4</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Výkon panelů</span>
+                </div>
+                <span class="text-black font-semibold">500 Wp</span>
+              </div>
+              <div class="flex flex-col sm:flex-row items-center w-full justify-between my-2">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M315.27 33L96 304h128l-31.51 173.23a2.36 2.36 0 002.33 2.77h0a2.36 2.36 0 001.89-.95L416 208H288l31.66-173.25a2.45 2.45 0 00-2.44-2.75h0a2.42 2.42 0 00-1.95 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></div>
+                  <span class="text-gray-600 text-lg">Výkon střídače</span>
+                </div>
+                <span class="text-black font-semibold">10 000 W</span>
+              </div>
+            </div>
+            <div class="flex flex-col mt-6 items-center w-full">
+              <div class="flex items-center w-full justify-between">
+                <span class="text-gray-600">Celková cena</span>
+                <span class="text-slate-900 text-xl tracking-wide">479 900 Kč</span>
+              </div>
+              <div class="flex items-center w-full justify-between">
+                <span class="text-gray-600">Dotace až</span>
+                <span class="text-slate-900 text-xl tracking-wide">225 000 Kč</span>
+              </div>
+              <div class="flex flex-col items-center font-bold">
+                <span class="text-gray-600">Vaše cena</span>
+                <span class="text-slate-900 text-3xl tracking-wide">254 900 Kč</span>
+              </div>
+              <a href="./#kontakt"class="px-4 py-3 text-gray-50 transition-all transform bg-emerald-400 rounded-[80px] hover:bg-emerald-500 mt-6">Mám zájem</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-32 flex flex-col">
+        <div class="max-w-xl mx-auto">
+          <div class="text-center ">
+              <div class="relative flex flex-col items-center">
+                  <div
+                      class="absolute hidden md:block -top-14 left-0 text-[120px] text-gray-400 font-bold opacity-10">
+                      Reference
+                  </div>
+                  <h1 class="text-5xl font-bold  class="text-slate-800"> Reference
+                      </span> </h1>
+                  <div class="flex w-24 mt-1 mb-10 overflow-hidden rounded">
+                      <div class="flex-1 h-2 bg-emerald-200">
+                      </div>
+                      <div class="flex-1 h-2 bg-emerald-400">
+                      </div>
+                      <div class="flex-1 h-2 bg-emerald-600">
+                      </div>
+                  </div>
+                  <p class="mb-16 text-base text-center text-gray-500">
+                    Prohlédněte si některé z našich dokončených projektů, které ilustrují kvalitu a rozsah našich služeb. Naše realizace mluví za nás a jsou důkazem naší odbornosti a profesionality. Děkujeme našim klientům za důvěru a těšíme se na další společné úspěchy.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="resize grid self-center grid-rows-2 grid-cols-2 xl:grid-cols-3 pad w-fit">
+        <div class="grid-item cursor-pointer relative transition-all duration-1000 group w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"> 
+            <img src='./assets/ref1.jpg' alt='reference' class="object-cover transition-all duration-300 group-hover:brightness-50 w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"/>
+            <span class="absolute pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-slate-100 text-3xl transition-all duration-300 opacity-0 group-hover:opacity-100"></span>
+        </div>
+        <div class="grid-item cursor-pointer relative transition-all duration-1000 group w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"> 
+          <img src='./assets/ref2.webp' alt='reference' class="object-cover transition-all duration-300 group-hover:brightness-50 w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"/>
+          <span class="absolute pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-slate-100 text-3xl transition-all duration-300 opacity-0 group-hover:opacity-100"></span>
+        </div>
+        <div class="grid-item cursor-pointer relative transition-all duration-1000 group w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"> 
+          <img src='./assets/ref3.jpg' alt='reference' class="object-cover transition-all duration-300 group-hover:brightness-50 w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"/>
+          <span class="absolute pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-slate-100 text-3xl transition-all duration-300 opacity-0 group-hover:opacity-100"></span>
+        </div>
+        <div class="grid-item cursor-pointer relative transition-all duration-1000 group w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"> 
+          <img src='./assets/ref4.webp' alt='reference' class="object-cover transition-all duration-300 group-hover:brightness-50 w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"/>
+          <span class="absolute pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-slate-100 text-3xl transition-all duration-300 opacity-0 group-hover:opacity-100"></span>
+        </div>
+        <div class="grid-item cursor-pointer relative transition-all duration-1000 group w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"> 
+          <img src='./assets/ref5.jpg' alt='reference' class="object-cover transition-all duration-300 group-hover:brightness-50 w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"/>
+          <span class="absolute pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-slate-100 text-3xl transition-all duration-300 opacity-0 group-hover:opacity-100"></span>
+        </div>
+        <div class="grid-item cursor-pointer relative transition-all duration-1000 group w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"> 
+          <img src='./assets/ref6.jpg' alt='reference' class="object-cover transition-all duration-300 group-hover:brightness-50 w-[33vw] h-[33vw] xl:w-[15.25vw] xl:h-[15.25vw]"/>
+          <span class="absolute pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-slate-100 text-3xl transition-all duration-300 opacity-0 group-hover:opacity-100"></span>
+        </div>  
+      </div>
+      <div class="popup-image" style="flex-direction: row-reverse;">
+        <span>&times;</span>
+        <img src="./img/socmedia test.jpg" alt="Přiblížený obrázek">
+    </div>
+      </section>
+      <!-- <section class="py-32 pad">
+        <div class="max-w-xl mx-auto">
+          <div class="text-center ">
+              <div class="relative flex flex-col items-center">
+                  <div
+                      class="absolute hidden md:block -top-14 left-10 text-[120px] text-gray-400 font-bold opacity-10">
+                      Voltmax
+                  </div>
+                  <h1 class="text-5xl font-bold  class="text-slate-800"> Průběh realizace
+                      </span> </h1>
+                  <div class="flex w-24 mt-1 mb-10 overflow-hidden rounded">
+                      <div class="flex-1 h-2 bg-emerald-200">
+                      </div>
+                      <div class="flex-1 h-2 bg-emerald-400">
+                      </div>
+                      <div class="flex-1 h-2 bg-emerald-600">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div> -->
+        <!-- <div class="grid grid-rows-6 items-center">
+          <div class="flex flex-col">
+            <b class="text-xl py-2"> Společně najdeme ideální řešení</b>
+            <p>Na začátku se budeme ptát. Ze získaných informací poté vytvoříme to nejefektivnější řešení pro váš dům. Sestavíme nabídku, kterou si poté společně probereme a odsouhlasíme. Teprve pak bude následovat samotný podpis smlouvy.</p>
+          </div>
+          <div class="flex flex-col">
+            <b class="text-xl py-2"> Přihlásíme vaši elektrárnu u distributora</b>
+            <p>Prvním krokem po podpisu smlouvy a zaplacení zálohy, který za vás vyřešíme, je přihlášení systému u distributora elektrické energie. Bez jeho povolení systém nemůžeme instalovat. Jakmile dojde ke schválení, můžeme začít plánovat termín instalace.</p>
+          </div>
+          <div class="flex flex-col py-6">
+            <b class="text-xl py-2"> Nainstalujeme elektrárnu</b>
+            <p>S instalací začneme na základě předem domluveného termínu. Začneme ráno, a pokud bude počasí shovívavé, skončíme v ten stejný či následující den.</p>
+          </div>
+          <div class="flex flex-col py-6">
+            <b class="text-xl py-2"> Nainstalujeme elektrárnu</b>
+            <p>Po instalaci vás navštíví revizní technik. Elektrárnu zkontroluje, zapojí a spustí. Provede měření a na jeho základě zhotoví revizní zprávu, kterou dostanete k dispozici.</p>
+          </div>
+          <div class="flex flex-col py-6">
+            <b class="text-xl py-2"> Zaškolíme vás v používání vašeho FVE systému Naučíme vás, jak s FVE pracovat</b>
+            <p>Po zkušebním spuštění vám revizní technik ukáže, jak elektrárna funguje. Dostanete prostor na veškeré dotazy. Zeptejte se, jak funguje měnič, baterie, proč bliká to, či ono. Dáme vám servisní telefonní číslo pro první pomoc. Pak musíme elektrárnu vypnout a počkat na výměnu elektroměru.</p>
+          </div>
+          <div class="flex flex-col py-6">
+            <b class="text-xl py-2"> Zpracujeme odborný posudek</b>
+            <p>Podle reálného stavu nainstalované elektrárny zhotovíme projektovou dokumentaci a vypracujeme odborný posudek. Ten následně doložíme k žádosti o dotaci NZÚ.</p>
+          </div>
+        </div> -->
+      </section>
+      
+
+      <footer class="footer p-10 bg-neutral text-neutral-content">
+        <nav>
+          <header class="footer-title">Naše služby</header> 
+          <a class="link link-hover" href="./fve-pro-rodinne-domy.html">Fotovoltaika pro RD</a>
+          <a class="link link-hover" href="./fve-pro-bytove-domy.html">Fotovoltaika pro bytové domy</a>
+          <a class="link link-hover" href="./fve-pro-firmy.html">Fotovoltaika pro firmy</a>
+          <a class="link link-hover" href="./#others">Další služby</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Voltmax</header> 
+          <a class="link link-hover" href="./#about">O nás</a>
+          <a class="link link-hover" href="./#kontakt">Kontakt</a>
+          <a class="link link-hover" href="./#career">Kariéra</a>
+        </nav>
+        <div class="flex flex-col md:flex-row gap-8">
+          <a target="_blank" href="https://www.google.com/search?sa=X&sca_esv=e5264c2d75c38363&tbm=lcl&sxsrf=ADLYWILiiIrlzqnay3pGZAWEprmZYzAdYA:1715227745036&q=3M+ENERGY+s.r.o.+Recenze&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2tTQwMTMyNjG1sDS3MLe0NDU23sDI-IpRwthXwdXPNcg9UqFYr0gvX08hKDU5Na8qdRErTikAuroUJVAAAAA&rldimm=5904623458978799533&hl=cs-CZ&ved=2ahUKEwjOgc6j2f-FAxX__7sIHS6wD54Q9fQKegQIGxAH&biw=1920&bih=919&dpr=1#lkt=LocalPoiReviews">
+            <div class="flex w-full flex-col items-center gap-4">
+              <div class="flex w-20 h-fit"><svg width="auto" height="32" viewBox="0 0 272 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M115.75 47.18C115.75 59.95 105.76 69.36 93.5 69.36C81.24 69.36 71.25 59.95 71.25 47.18C71.25 34.32 81.24 25 93.5 25C105.76 25 115.75 34.32 115.75 47.18ZM106.01 47.18C106.01 39.2 100.22 33.74 93.5 33.74C86.78 33.74 80.99 39.2 80.99 47.18C80.99 55.08 86.78 60.62 93.5 60.62C100.22 60.62 106.01 55.07 106.01 47.18Z" fill="#D7DDE4"/>
+                <path d="M163.75 47.18C163.75 59.95 153.76 69.36 141.5 69.36C129.24 69.36 119.25 59.95 119.25 47.18C119.25 34.33 129.24 25 141.5 25C153.76 25 163.75 34.32 163.75 47.18ZM154.01 47.18C154.01 39.2 148.22 33.74 141.5 33.74C134.78 33.74 128.99 39.2 128.99 47.18C128.99 55.08 134.78 60.62 141.5 60.62C148.22 60.62 154.01 55.07 154.01 47.18Z" fill="#D7DDE4"/>
+                <path d="M209.75 26.34V66.16C209.75 82.54 200.09 89.23 188.67 89.23C177.92 89.23 171.45 82.04 169.01 76.16L177.49 72.63C179 76.24 182.7 80.5 188.66 80.5C195.97 80.5 200.5 75.99 200.5 67.5V64.31H200.16C197.98 67 193.78 69.35 188.48 69.35C177.39 69.35 167.23 59.69 167.23 47.26C167.23 34.74 177.39 25 188.48 25C193.77 25 197.97 27.35 200.16 29.96H200.5V26.35H209.75V26.34ZM201.19 47.26C201.19 39.45 195.98 33.74 189.35 33.74C182.63 33.74 177 39.45 177 47.26C177 54.99 182.63 60.62 189.35 60.62C195.98 60.62 201.19 54.99 201.19 47.26Z" fill="#D7DDE4"/>
+                <path d="M225 3V68H215.5V3H225Z" fill="#D7DDE4"/>
+                <path d="M262.02 54.48L269.58 59.52C267.14 63.13 261.26 69.35 251.1 69.35C238.5 69.35 229.09 59.61 229.09 47.17C229.09 33.98 238.58 24.99 250.01 24.99C261.52 24.99 267.15 34.15 268.99 39.1L270 41.62L240.35 53.9C242.62 58.35 246.15 60.62 251.1 60.62C256.06 60.62 259.5 58.18 262.02 54.48ZM238.75 46.5L258.57 38.27C257.48 35.5 254.2 33.57 250.34 33.57C245.39 33.57 238.5 37.94 238.75 46.5Z" fill="#D7DDE4"/>
+                <path d="M35.29 41.41V32H67C67.31 33.64 67.47 35.58 67.47 37.68C67.47 44.74 65.54 53.47 59.32 59.69C53.27 65.99 45.54 69.35 35.3 69.35C16.32 69.35 0.359985 53.89 0.359985 34.91C0.359985 15.93 16.32 0.470001 35.3 0.470001C45.8 0.470001 53.28 4.59 58.9 9.96L52.26 16.6C48.23 12.82 42.77 9.88 35.29 9.88C21.43 9.88 10.59 21.05 10.59 34.91C10.59 48.77 21.43 59.94 35.29 59.94C44.28 59.94 49.4 56.33 52.68 53.05C55.34 50.39 57.09 46.59 57.78 41.4L35.29 41.41Z" fill="#D7DDE4"/>
+                </svg>
+                </div>
+                <div class="flex gap-2">
+                  <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                  <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                  <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                  <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                  <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                </div>
+            </div>
+            </a>
+            <a target="_blank" href="https://www.firmy.cz/detail/13376176-3m-energy-s-r-o-brno-brnenske-ivanovice.html">
+              <div class="flex w-full flex-col items-center gap-4">
+                <div class="flex w-20 h-fit"><svg width="auto" height="32" viewBox="0 0 600 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_2_9)">
+                  <path d="M584.9 60.1C584 52.1 573.7 45.4 567.4 44.2C561.7 43.1 555.9 42.7 550.1 42.7C545.5 42.6 541 42.9 536.4 43.4C529.9 44.1 526.7 46.5 524.4 53C523.5 55.6 522.8 59.5 524.5 61.8C527 65.1 532 63.3 535.1 62.3C538.5 61.2 542.4 61.2 545.9 60.9C549.5 60.6 554.5 59.5 558 61.1C556.5 64.1 552.3 65.6 549.7 67.1C545.9 69.3 542.2 71.6 538.4 73.7C528 79.3 517.2 86.1 506.1 90.1C499.8 92.3 493.1 92.8 486.5 92.9C481.5 93 476.4 93.2 471.4 92.7C468.1 92.4 462.1 92.2 460.3 88.4C459 85.7 460.3 82.5 461.6 80.2C469 67.4 480.4 59 494.6 58.5C498.1 58.4 502 58 503.9 54.3C506.4 49.5 502.7 44.8 498.7 42.9C491.5 39.6 482.9 42.5 476 45.4C469.2 48.2 462.6 52.1 457.9 58.2C451.8 66.1 447.7 77.3 449 87.6C450.9 102.4 460.8 116.6 475.9 115.4C480.7 115 485.6 114.2 490.2 112.6C494.9 110.9 499.4 107.3 504.5 107.3C504.7 107.3 504.8 107.3 504.8 107.4C507.9 110.8 510.7 114 515.1 115.3C519.4 116.6 524 116.3 528.4 116.5C548.2 117.8 568 114.4 587.1 108.8C590.8 107.7 595.1 105.3 597.8 102.5C603.4 96.7 594.5 94.7 590.1 94.7C584.9 94.6 579.7 94.5 574.5 94.4C562.8 94.3 551.1 94.6 539.4 95.3C536 95.5 532.6 95.9 529.2 96C527 96.1 523.8 95.2 525.2 92.5C526.1 90.7 528.9 89.4 530.5 88.6C543.3 82.7 556 78.6 569.4 74.5C573.9 73.1 580.8 71.1 583.3 66.4C584.8 64.2 585.1 62.1 584.9 60.1ZM424.8 60.9C425.1 57.7 424.6 54.4 422.8 52.3C421.3 50.6 419.1 48.9 417.1 48.1C414 46.9 411.3 50 409 51.6C406.2 53.6 402.8 54.9 399.7 56.4C393.2 59.3 387.5 60.9 380 62C375.7 62.6 371.4 62.8 368.8 61.8C366.2 60.8 364.8 52.5 364.5 51.6C363.2 48.1 362.3 45.7 358.4 45.2C355 45.7 353.8 49.1 353.1 52.6C352.4 56 351.7 60.4 352.4 66C353 71.4 355.1 76.8 359 80.5C360.3 81.7 361.3 81.8 362.9 82.4C364.5 82.9 366 83.3 366.4 85.2C366.6 86.5 366.4 88.4 366.4 89.8C366.5 93.8 366.7 97.8 366.9 101.7C367 102.9 367 104 367.1 105.2C367.5 110 367 119.4 373.3 120.4C381.6 121.7 380.1 112.4 380.3 106.7C380.4 103.1 380.6 99.4 380.7 95.8C380.7 95 381.1 84.9 381.6 84.9C381.8 84.9 381.9 84.9 382 84.9C385.1 84.5 388.1 83.9 390.9 83.4C394.1 82.8 397.2 82 400.3 81C406.3 79.1 412.3 76.4 417.3 72.4C420 70.2 423.3 66.6 424.2 63.1C424.6 62.3 424.7 61.7 424.8 60.9ZM430.7 109.3C432.4 106.3 432.9 101.8 431.4 98.6C429.7 95.2 423.6 97.4 420.9 98C418.1 98.5 414.9 99.6 414 102.8C413 106.3 415.2 111.9 417.6 114.3C422.8 119.6 427.8 114.6 430.7 109.3ZM196.5 65.9C196 65.5 195.6 64.9 195.3 64.1C194.2 59.8 194.3 56.4 198.9 55.6C204.1 54.7 207.9 56.6 212.9 57.3C214.7 57.6 216.7 59.2 216.4 61.3C216.1 63.3 214.1 63.7 212.6 64.2C209 65.4 199.9 68.4 196.5 65.9ZM337.8 107.2C337.9 106 337.9 104.8 337.9 103.6C338.5 94.7 339.3 85.9 340.3 77C341.1 69.3 342.2 61.6 336.4 55.8C330.6 50 324.9 47.5 317.4 51.1C309.4 54.9 302.2 60.7 293.8 63.6C294.8 63.3 287.7 51.1 286.9 50.2C284.5 47.5 277.8 41.8 274.6 46.3C272.5 49.2 272.5 53.3 271.7 56.7C270.8 60.8 269.7 64.8 268.9 68.9C267.1 77.5 264.1 87.2 261.8 95.6C261.7 95.6 261.5 95.6 261.3 95.5C252.1 93 242.7 91.8 233.5 89.1C224.3 86.4 215.2 83.2 206.2 79.7C209.9 79 213.8 78 217.4 77.1C221.3 76.2 225.2 75 228.8 73.1C231.8 71.5 235.3 69.9 237.1 66.7C247 49.3 212.5 43.9 203.7 43.5C197.6 43.3 179 41.2 177.5 50.7C177.2 52.8 177.6 55.3 178.1 57.3C178.7 59.8 180.4 60 181.5 62.1C182.8 64.8 179.9 69.4 179.1 72.1C177.9 76.2 177 80.3 175.9 84.5C174.2 91.2 172.9 97.6 173.6 104.6C173.8 106.1 174.2 109.4 174.9 110.6C176.6 113.3 179.4 114.3 182.2 113.2C185.9 111.8 186.2 107.6 187.6 104.1C187.9 103.3 191.6 94.7 191 94.4C203.7 100.8 217.8 106 233.5 110.1C238.4 111.4 243.7 110.6 248.5 109.3C251.5 108.5 254.2 106.8 257.4 106.2C261.7 105.4 261.5 108.2 263.2 111.5C264 113.1 265 114.6 266.2 115.9C276.4 126.9 278.4 98.8 279.7 93.6C280.6 90.3 280.7 86.2 282.3 83.1C284 79.8 286.6 83.2 288.2 84.7C290.4 86.8 292.6 88.4 295.6 88.6C299.9 88.9 303.1 87.3 306.3 84.4C309.4 81.7 312.7 79.3 315.6 76.3C317.2 74.7 319 71.5 321.2 71.1C324.5 70.4 323.4 75.5 323.1 77.7C322.6 81.7 322.5 85.8 322.3 89.9C322 94.9 321.2 100.9 322.1 105.9C322.9 110 328.2 116.8 332.7 115.7C337.1 114.8 337.6 111 337.8 107.2ZM166.6 67.7C167.1 64.4 168.5 60.3 167.1 57.2C165.5 53.3 164.1 51.7 162.7 50C161.4 48.3 157 44.1 154.4 45.5C152.2 46.6 151.2 53.6 150.4 55.6C148.6 60.3 147.4 65.2 146.2 70C143.7 80.1 143.2 90 142.1 100.3C141.6 104.5 141.3 108.7 141.8 112.9C142.5 119.2 147.8 120 152.8 116.5C159.2 112.1 159.8 103.9 161.3 97.5C162.7 91.7 163.6 85.8 164.9 80.2C165.8 76.3 166 72.3 166.5 68.3C166.6 68.1 166.6 67.9 166.6 67.7Z" fill="#D7DDE4"/>
+                  <path d="M128.8 14.4C126.9 11.1 123.9 8.3 120.8 6.5C109.1 -0.3 95.9 -0.399994 83 -0.399994C73.6 -0.399994 64.3 0.300006 55 1.60001C49.9 2.30001 44.8 3.29999 39.7 4.39999C33.7 5.69999 27.7 7.2 21.8 9.2C16.5 11 11.3 14.1 6.39999 16.9C4.09999 18.2 1.7 19.9 0.599998 22.6C-0.700002 25.8 0.599995 28.8 0.799995 32C1.2 36.5 2.99999 37.9 5.19999 41.2C9.49999 47.8 16.5 49.7 23.6 46.8C25.5 46.1 30.1 42.5 31.8 43C34.6 43.9 32.2 53 31.6 55.2C30.8 58.2 29.3 60.5 26.5 61.5C24.2 62.4 19.3 61.9 18.5 65.2C16.3 74.3 25.6 81.1 26.8 89.2C27.4 93.3 25.8 97.3 25.4 101.3C24.8 106.6 24.6 111.9 24.1 117.1C23.9 119.6 23.2 123 23.5 125.4C23.9 129.1 27.9 131.3 30.9 130.1C35.7 128.2 38.2 121.9 40.1 117.3C42.7 111 44.1 104.6 45.4 97.8C46.2 93.3 47.7 88.4 52.7 87.9C59.3 87.1 65.6 85.3 72.2 84.5C79.3 83.7 86.4 83.4 93.3 81.9C98 80.9 102.7 81.1 107.4 80.4C115.3 79.2 124.6 76.1 131.5 71.7C134.8 69.5 136.2 64.7 137.5 61C141.1 51.4 116.5 52.7 112.8 52.7C102.2 52.6 92.4 52.9 83.3 53.7C76.7 54.3 70.1 54.8 63.5 54.6C60.6 54.5 56.4 54.6 54.5 51.8C52.3 48.5 53.9 41.3 55.2 37.9C56.9 33.6 63.6 34.8 67 34.5C72.8 34 78.6 33.2 84.5 32.9C96.9 32.3 108.9 31.8 121.2 29.7C124.3 29.2 129.8 28.1 130.6 24.1C131.3 20.6 130.5 17.3 128.8 14.4Z" fill="#D7DDE4"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_2_9">
+                  <rect width="600" height="121" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>                
+                  </div>
+                  <div class="flex gap-2">
+                    <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                    <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                    <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                    <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                    <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                  </div>
+              </div>
+              </a>
+              <div class="flex gap-8">
+                <a target="_blank" href="https://refsite.info/companies/3m-energy/installations/photovoltaics/reviews">
+                  <div class="flex w-full flex-col items-center gap-4">
+                    <div class="flex w-20 h-fit"><svg width="auto" height="32" viewBox="0 0 2373 684" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_2_12)">
+                      <path d="M739.488 679.829V445.356H682.482V383.102H739.488V355.756C739.488 334.811 740.845 317.744 743.56 304.556C746.274 290.981 750.928 280.508 757.52 273.138C764.5 265.38 773.614 259.756 784.86 256.265C796.493 252.774 810.842 250.641 827.905 249.865C845.355 248.702 866.1 248.12 890.15 248.12V303.974C873.86 303.974 860.87 304.362 851.17 305.138C841.477 305.914 834.109 307.659 829.068 310.374C824.414 313.09 821.118 317.162 819.179 322.593C817.628 327.635 816.853 334.617 816.853 343.538V383.102H890.15V445.356H816.853V679.829H739.488Z" fill="#D7DDE4"/>
+                      <path d="M1054.94 684.484C1042.91 684.484 1029.92 684.096 1015.96 683.32C1002.39 682.544 989.01 681.574 975.83 680.411C962.64 679.247 950.62 677.89 939.76 676.338V618.156C945.58 618.544 952.36 619.126 960.12 619.902C968.26 620.29 976.99 620.677 986.3 621.065C995.6 621.453 1004.72 621.841 1013.64 622.229C1022.56 622.617 1030.89 622.811 1038.65 622.811C1056.49 622.811 1069.28 622.035 1077.04 620.484C1085.18 618.544 1090.42 615.441 1092.75 611.174C1095.07 606.52 1096.24 600.508 1096.24 593.138C1096.24 585.381 1095.46 579.756 1093.91 576.265C1092.36 572.387 1089.45 569.865 1085.18 568.702C1080.92 567.538 1073.94 566.374 1064.24 565.211L995.02 556.484C976.8 554.156 963.03 549.308 953.72 541.938C944.8 534.568 938.6 524.677 935.11 512.265C932.01 499.853 930.45 485.114 930.45 468.047C930.45 447.877 933.36 431.974 939.18 420.338C945.38 408.314 953.72 399.393 964.19 393.574C975.05 387.368 987.85 383.296 1002.58 381.356C1017.71 379.417 1034 378.447 1051.45 378.447C1063.08 378.447 1075.1 378.835 1087.51 379.611C1099.92 380.387 1111.75 381.55 1122.99 383.102C1134.63 384.265 1144.32 385.817 1152.08 387.756V445.356C1143.16 444.193 1133.27 443.417 1122.41 443.029C1111.55 442.253 1100.89 441.671 1090.42 441.284C1079.95 440.508 1070.64 440.12 1062.5 440.12C1047.76 440.12 1035.93 440.702 1027.01 441.865C1018.48 442.641 1012.47 444.968 1008.98 448.847C1005.49 452.726 1003.75 459.126 1003.75 468.047C1003.75 475.029 1004.33 480.459 1005.49 484.338C1006.66 487.829 1009.18 490.35 1013.05 491.902C1016.93 493.065 1023.14 494.229 1031.67 495.393L1106.71 504.702C1120.28 506.253 1131.72 509.356 1141.03 514.011C1150.33 518.665 1157.12 526.811 1161.38 538.447C1166.04 550.084 1168.37 567.732 1168.37 591.393C1168.37 611.95 1165.84 628.435 1160.8 640.847C1155.76 652.871 1148.01 662.181 1137.54 668.774C1127.45 674.981 1115.43 679.053 1101.47 680.993C1087.9 683.32 1072.39 684.484 1054.94 684.484Z" fill="#D7DDE4"/>
+                      <path d="M1235.27 316.193V247.538H1314.96V316.193H1235.27ZM1236.44 679.829V383.102H1313.8V679.829H1236.44Z" fill="#D7DDE4"/>
+                      <path d="M1424.55 679.829V445.356H1367.54V383.102H1424.55V296.993H1501.91V383.102H1569.39V445.356H1501.91V679.829H1424.55Z" fill="#D7DDE4"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.498047 679.829V279.538H191.873C217.855 279.538 238.602 282.447 254.114 288.265C270.013 294.084 282.035 302.617 290.179 313.865C298.322 324.726 303.751 338.108 306.466 354.011C309.568 369.526 311.119 386.981 311.119 406.374C311.119 419.95 309.956 434.496 307.629 450.011C305.303 465.526 300.067 479.877 291.924 493.065C284.168 506.253 271.758 515.95 254.696 522.156L318.681 679.829H231.428L176.131 533.046C173.981 533.156 171.667 533.211 169.187 533.211H83.097V679.829H0.498047ZM158.717 466.302H83.097V346.447H159.299C175.586 346.447 188.383 347.417 197.69 349.356C207.385 351.296 214.365 354.399 218.631 358.665C222.897 362.932 225.611 368.944 226.775 376.702C227.938 384.459 228.52 394.35 228.52 406.374C228.52 418.399 227.938 428.29 226.775 436.047C225.611 443.417 222.703 449.429 218.049 454.084C213.396 458.35 206.415 461.453 197.108 463.393C187.801 465.332 175.004 466.302 158.717 466.302Z" fill="#D7DDE4"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M453.506 679.247C470.957 682.738 492.867 684.484 519.237 684.484C531.646 684.484 544.443 684.096 557.628 683.32C571.201 682.544 583.998 681.381 596.02 679.829C608.429 678.665 618.9 677.114 627.431 675.174V618.156C618.124 618.932 607.847 619.708 596.601 620.484C585.743 621.259 575.079 621.841 564.609 622.229C554.526 622.617 545.413 622.811 537.269 622.811C517.492 622.811 501.786 622.035 490.152 620.484C478.906 618.932 470.569 615.829 465.14 611.174C460.098 606.52 456.802 599.732 455.251 590.811C454.088 581.502 453.506 569.478 453.506 554.738H639.065V532.047C639.065 510.714 638.483 491.708 637.32 475.029C636.156 458.35 633.442 443.999 629.176 431.974C625.298 419.562 618.706 409.477 609.399 401.72C600.479 393.962 588.264 388.144 572.752 384.265C557.24 380.387 537.075 378.447 512.257 378.447C481.621 378.447 456.996 381.55 438.382 387.756C420.156 393.574 406.583 402.884 397.664 415.684C389.132 428.096 383.509 443.999 380.795 463.393C378.08 482.787 376.723 505.671 376.723 532.047C376.723 554.156 377.305 573.744 378.468 590.811C380.019 607.49 383.316 621.841 388.357 633.865C393.786 645.502 401.542 655.199 411.624 662.956C422.095 670.326 436.055 675.756 453.506 679.247ZM562.863 470.956C564.802 479.877 565.772 491.902 565.772 507.029H453.506C453.506 493.065 454.282 481.623 455.833 472.702C457.384 463.393 460.098 456.411 463.976 451.756C467.854 446.714 473.477 443.417 480.845 441.865C488.213 439.926 498.296 438.956 511.093 438.956C521.951 438.956 530.871 439.732 537.851 441.284C544.831 442.447 550.26 445.356 554.138 450.011C558.404 454.665 561.312 461.647 562.863 470.956Z" fill="#D7DDE4"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M1686.75 679.247C1704.21 682.738 1726.12 684.484 1752.49 684.484C1764.89 684.484 1777.69 684.096 1790.88 683.32C1804.45 682.544 1817.25 681.381 1829.27 679.829C1841.68 678.665 1852.15 677.114 1860.68 675.174V618.156C1851.37 618.932 1841.1 619.708 1829.85 620.484C1818.99 621.259 1808.33 621.841 1797.86 622.229C1787.77 622.617 1778.66 622.811 1770.52 622.811C1750.74 622.811 1735.03 622.035 1723.4 620.484C1712.15 618.932 1703.82 615.829 1698.39 611.174C1693.35 606.52 1690.05 599.732 1688.5 590.811C1687.34 581.502 1686.75 569.478 1686.75 554.738H1872.31V532.047C1872.31 510.714 1871.73 491.708 1870.57 475.029C1869.4 458.35 1866.69 443.999 1862.42 431.974C1858.55 419.562 1851.95 409.477 1842.65 401.72C1833.73 393.962 1821.51 388.144 1806 384.265C1790.49 380.387 1770.32 378.447 1745.51 378.447C1714.87 378.447 1690.24 381.55 1671.63 387.756C1653.4 393.574 1639.83 402.884 1630.91 415.684C1622.38 428.096 1616.76 443.999 1614.04 463.393C1611.33 482.787 1609.97 505.671 1609.97 532.047C1609.97 554.156 1610.55 573.744 1611.72 590.811C1613.27 607.49 1616.56 621.841 1621.61 633.865C1627.03 645.502 1634.79 655.199 1644.87 662.956C1655.34 670.326 1669.3 675.756 1686.75 679.247ZM1796.11 470.956C1798.05 479.877 1799.02 491.902 1799.02 507.029H1686.75C1686.75 493.065 1687.53 481.623 1689.08 472.702C1690.63 463.393 1693.35 456.411 1697.22 451.756C1701.1 446.714 1706.73 443.417 1714.09 441.865C1721.46 439.926 1731.54 438.956 1744.34 438.956C1755.2 438.956 1764.12 439.732 1771.1 441.284C1778.08 442.447 1783.51 445.356 1787.39 450.011C1791.65 454.665 1794.56 461.647 1796.11 470.956Z" fill="#D7DDE4"/>
+                      <path d="M2274.84 245.284C2274.84 272.396 2252.87 294.375 2225.76 294.375C2198.65 294.375 2176.68 272.396 2176.68 245.284C2176.68 218.172 2198.65 196.193 2225.76 196.193C2252.87 196.193 2274.84 218.172 2274.84 245.284Z" fill="#D7DDE4"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M2274.84 245.284C2274.84 272.396 2252.87 294.375 2225.76 294.375C2198.65 294.375 2176.68 272.396 2176.68 245.284C2176.68 218.172 2198.65 196.193 2225.76 196.193C2252.87 196.193 2274.84 218.172 2274.84 245.284Z" fill="#D7DDE4"/>
+                      <path d="M2373 130.738L2176.68 -0.171021L1980.36 130.738V392.556V490.738L2127.6 392.556H2338.29L2275.62 329.872C2261.01 338.509 2243.96 343.465 2225.76 343.465C2171.55 343.465 2127.6 299.508 2127.6 245.284C2127.6 191.059 2171.55 147.102 2225.76 147.102C2279.97 147.102 2323.92 191.059 2323.92 245.284C2323.92 263.492 2318.96 280.542 2310.33 295.159L2373 357.844V130.738Z" fill="#D7DDE4"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_2_12">
+                      <rect width="2373" height="684" fill="white"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                      
+                      </div>
+                      <div class="flex gap-2">
+                        <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                        <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                        <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                        <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                        <span class="flex w-4 h-4"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"fill="#D7DDE4"/></svg></span>
+                      </div>
+                  </div>
+                  </a>
+              </div>
+        </div>
+        <nav>
+          <header class="footer-title">Partneři</header> 
+          <a class="link link-hover">www.forthsite.cz</a>
+          <a class="link link-hover">www.forthsite.cz</a>
+          <a class="link link-hover">www.forthsite.cz</a>
+        </nav>
+      </footer> 
+      <footer class="footer place-items-start px-10 py-4 border-t bg-neutral text-neutral-content border-neutral-600" style="place-items: start; justify-items: left;">
+        <aside class="items-center grid-flow-col flex flex-col">
+          <img class="logo transition-all w-24 mx-8 scale-125">
+          <p>Voltmax. <br/>Kaštanová 489/34, Brněnské Ivanovice,<br>
+            620 00 Brno</p>
+        </aside>
+        <nav class="md:place-self-center md:justify-self-end">
+          <div class="grid grid-flow-col gap-4">
+            <a class="svg-link" target="_blank" href="https://www.instagram.com/voltmax.cz/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ionicon" viewBox="0 0 512 512">
+                  <style>
+                      <![CDATA[
+                          .svg-link:hover .fill-current {
+                              fill: #10b981; /* Set the fill color for the hover state */
+                          }
+                      ]]>
+                  </style>
+                  <path class="fill-current" d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
+                  <path class="fill-current" d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"/>
+              </svg>
+          </a>
+          
+          
+            <a class="svg-link" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+                  <style>
+                      <![CDATA[
+                          .svg-link:hover .fill-current {
+                              fill: #10b981; /* Set the fill color for the hover state */
+                          }
+                      ]]>
+                  </style>
+                  <path class="fill-current" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+              </svg>
+          </a>        
+          <a class="svg-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+                <style>
+                    <![CDATA[
+                        .svg-link:hover .fill-current {
+                            fill: #10b981; /* Set the fill color for the hover state */
+                        }
+                    ]]>
+                </style>
+                <path class="fill-current" d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+            </svg>
+        </a>
+        
+          </div>
+        </nav>
+      </footer>
+      <script type="module" src="./cookieconsent-config.js"></script>
+    </body>
+  </html>
